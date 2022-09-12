@@ -1,0 +1,14 @@
+proxies:
+- name: Depth29
+  server: 141.193.213.20
+  port: 443
+  type: vmess
+  password: 73a2d742-a8a1-4b05-9319-0fcadba96daa
+  sni: sgray.jagoan.vip
+  skip-cert-verify: true
+  udp: true
+  network: ws
+  ws-opts:
+    path: /vvip
+    headers:
+      Host: sgray.jagoan.vip
