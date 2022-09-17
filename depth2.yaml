@@ -1,7 +1,7 @@
 proxies:
 - name: jagoansshtrial
   type: vmess
-  server: 172.67.199.34
+  server: 172.64.149.82
   port: 443
   uuid: a017a02f-0aa3-4829-a79e-275c64667084
   alterId: 0
