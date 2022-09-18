@@ -1,7 +1,7 @@
 proxies:
 - name: DepthSG1-29-09
   type: vmess
-  server: crl.identrust.com
+  server: kno2fy.com
   port: 443
   uuid: 73a2d742-a8a1-4b05-9319-0fcadba96daa
   alterId: 0
