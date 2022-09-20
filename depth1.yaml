@@ -1,7 +1,7 @@
 proxies:
 - name: DepthSG1-29-09
   type: vmess
-  server: st1.zoom.us
+  server: sgray.jagoan.vip
   port: 443
   uuid: 73a2d742-a8a1-4b05-9319-0fcadba96daa
   alterId: 0
@@ -13,5 +13,5 @@ proxies:
   ws-opts:
     path: /vvip
     headers:
-      Host: sgray.jagoan.vip
+      Host: st1.zoom.us
   udp: true
