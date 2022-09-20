@@ -1,7 +1,7 @@
 proxies:
 - name: jagoansshtrial
   type: vmess
-  server: 172.64.149.82
+  server: sg.vmes.xyz
   port: 443
   uuid: a017a02f-0aa3-4829-a79e-275c64667084
   alterId: 0
@@ -13,5 +13,5 @@ proxies:
   ws-opts:
     path: /JAGOANSSH/
     headers:
-      Host: sg.vmes.xyz
+      Host: st1.zoom.us
   udp: true
