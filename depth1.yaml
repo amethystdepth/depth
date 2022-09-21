@@ -13,5 +13,5 @@ proxies:
   ws-opts:
     path: /vvip
     headers:
-      Host: st1.zoom.us
+      Host: explore.zoom.us
   udp: true
