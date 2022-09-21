@@ -1,2 +1,17 @@
 proxies:
-
+- name: Amethystdepth-JAGOANSSH
+  type: vmess
+  server: sg.vmes.xyz
+  port: 443
+  uuid: a017a02f-0aa3-4829-a79e-275c64667084
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: explorer.zoom.us
+  network: ws
+  ws-opts:
+    path: /JAGOANSSH/
+    headers:
+      Host: explore.zoom.us
