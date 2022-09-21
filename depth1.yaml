@@ -9,12 +9,12 @@ proxies:
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: 172.67.199.34
+  servername: st1.zoom.us
   network: ws
   ws-opts:
     path: /vvip
     headers:
-      Host: 172.67.199.34
+      Host: marketplacefront.zoom.us
 
 
 
