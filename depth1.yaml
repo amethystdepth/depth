@@ -9,12 +9,12 @@ proxies:
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: marketplacefront.zoom.us
+  servername: assets.zoom.us
   network: ws
   ws-opts:
     path: /vvip
     headers:
-      Host: marketplacefront.zoom.us
+      Host: assets.zoom.us
 
 
 
