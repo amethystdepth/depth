@@ -14,7 +14,7 @@ proxies:
   ws-opts:
     path: /vvip
     headers:
-      Host: academylearn.zoom.us
+      Host: sgray.jagoan.vip
 
 
 
