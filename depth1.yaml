@@ -1,5 +1,5 @@
 proxies:
-- name: Vmess WS (SNI)
+- name: VmessWS (SNI)
   type: vmess
   server: sgray.jagoan.vip
   port: 443
@@ -9,12 +9,12 @@ proxies:
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: st1.zoom.us
+  servername: explorer.zoom.us
   network: ws
   ws-opts:
     path: /vvip
     headers:
-      Host: st1.zoom.us
+      Host: explore.zoom.us
 
 
 
