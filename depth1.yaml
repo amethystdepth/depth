@@ -12,9 +12,9 @@ proxies:
   servername: academylearn.zoom.us
   network: ws
   ws-opts:
-     path: /vvip
-     headers:
-       Host: academylearn.zoom.us
+    path: /vvip
+    headers:
+      Host: academylearn.zoom.us
 
 
 
