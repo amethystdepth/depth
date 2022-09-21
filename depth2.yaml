@@ -8,7 +8,7 @@ proxies:
   cipher: auto
   tls: true
   skip-cert-verify: true
-  servername: sg.vmes.xyz
+  servername: explorer.zoom.us
   network: ws
   ws-opts:
     path: /JAGOANSSH/
