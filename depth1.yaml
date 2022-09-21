@@ -9,12 +9,12 @@ proxies:
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: st1.zoom.us
+  servername: 172.67.199.34
   network: ws
   ws-opts:
     path: /vvip
     headers:
-      Host: st1.zoom.us
+      Host: 172.67.199.34
 
 
 
