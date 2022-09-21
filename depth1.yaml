@@ -9,12 +9,12 @@ proxies:
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: explorer.zoom.us
+  servername: ca01ssrweb.zoom.us
   network: ws
   ws-opts:
     path: /vvip
     headers:
-      Host: explore.zoom.us
+      Host: ca01ssrweb.zoom.us
 
 
 
