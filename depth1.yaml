@@ -14,7 +14,7 @@ proxies:
   ws-opts:
     path: /vvip
     headers:
-      Host: marketplacefront.zoom.us
+      Host: st1.zoom.us
 
 
 
