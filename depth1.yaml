@@ -1,5 +1,5 @@
 proxies:
-- name: Vmess WS29(SNI)
+- name: Vmess WS 29(SNI)
   type: vmess
   server: sgray.jagoan.vip
   port: 443
