@@ -13,5 +13,5 @@ proxies:
   ws-opts:
     path: /JAGOANSSH/
     headers:
-      Host: st1.zoom.us
+      Host: explorer.zoom.us
   udp: true
