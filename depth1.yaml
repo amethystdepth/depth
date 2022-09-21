@@ -1,17 +1,31 @@
-proxies:
-- name: DepthSG1-29-09
+- name: Vmess WS (SNI)
   type: vmess
   server: sgray.jagoan.vip
   port: 443
   uuid: 73a2d742-a8a1-4b05-9319-0fcadba96daa
   alterId: 0
   cipher: auto
+  udp: true
   tls: true
   skip-cert-verify: true
-  servername: sgray.jagoan.vip
+  servername: explorer.zoom.us
   network: ws
   ws-opts:
     path: /vvip
     headers:
       Host: explore.zoom.us
-  udp: true
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
