@@ -9,12 +9,12 @@ proxies:
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: academylearn.zoom.us
+  servername: st1.zoom.us
   network: ws
   ws-opts:
     path: /vvip
     headers:
-      Host: sgray.jagoan.vip
+      Host: st1.zoom.us
 
 
 
