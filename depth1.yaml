@@ -1,3 +1,4 @@
+proxies:
 - name: Vmess WS (SNI)
   type: vmess
   server: sgray.jagoan.vip
