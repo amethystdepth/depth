@@ -1,9 +1,9 @@
 proxies:
-- name: Trojan GFW SG(SNI)
+- name: Trojan GFW SG (SNI)
   type: trojan
   server: sg6-trojan.bonds.id
   port: 443
   password: 752ed740-3a7e-11ed-b4fd-1239d0255272
   udp: true
-  sni: st1.zoom.us
+  sni: 198.74.11.40
   skip-cert-verify: true
