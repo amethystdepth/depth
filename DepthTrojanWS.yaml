@@ -1,0 +1,14 @@
+proxies:
+- name: Trojan WS IDN (SNI)
+  server: id5-trojan.bonds.id
+  port: 443
+  type: trojan
+  password: 63710670-3a78-11ed-8cd1-1239d0255272
+  skip-cert-verify: true
+  sni: st1.zoom.us
+  network: ws
+  ws-opts:
+    path: /howdy
+    headers:
+      Host: st1.zoom.us
+  udp: true
