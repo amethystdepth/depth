@@ -1,5 +1,5 @@
 proxies:
-- name: Trojan GFW (SNI)
+- name: Trojan GFW(SNI)
   type: trojan
   server: id5-trojan.bonds.id
   port: 443
