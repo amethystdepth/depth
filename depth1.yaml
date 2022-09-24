@@ -9,12 +9,12 @@ proxies:
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: explorer.zoom.us
+  servername: zt3a8nw0r75w.wpeproxy.com
   network: ws
   ws-opts:
     path: /vvip
     headers:
-      Host: explore.zoom.us
+      Host: zt3a8nw0r75w.wpeproxy.com
 
 
 
