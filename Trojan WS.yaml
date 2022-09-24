@@ -1,0 +1,14 @@
+proxies:
+- name: Trojan WS SG (SNI)
+  server: sg6-trojan.bonds.id
+  port: 443
+  type: trojan
+  password: 752ed740-3a7e-11ed-b4fd-1239d0255272
+  skip-cert-verify: true
+  sni: explorer.zoom.us
+  network: ws
+  ws-opts:
+    path: /howdy
+    headers:
+      Host: explore.zoom.us
+  udp: true
